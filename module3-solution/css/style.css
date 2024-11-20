@@ -1,0 +1,78 @@
+body {
+    font-size: 16px;
+    color: black;
+    background-color: white;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bold; 
+}
+
+#header-nav {
+    background-color: gray;
+    border-radius: 0;
+    border: 0;
+}
+
+.navbar-brand {
+    padding-top: 25px;
+    padding-bottom: 40px;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+.navbar-brand h1 {
+    font-family: 'Lora', serif;
+    color: black;
+    text-transform: uppercase;
+    margin: 0;
+    line-height: 0.75;
+}
+
+#nav-list {
+    margin-top: 10px;
+}
+#nav-list a {
+    color: black;
+    text-align: center;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid black;
+}
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -33px;
+}
+
+#nav-list li p {
+    background: white;
+}
+
+#home-tiles .item-text {
+    background: gray;
+    padding: 10px;
+}
+
+#home-tiles .item-text p {
+    font-size: 1.5em;
+}
+
+@media (max-width: 767px) {
+    .navbar-brand {
+        padding-top: 10px;
+    }
+    .navbar-brand h1 { 
+        padding-top: 10px;
+    }
+
+    #collapsable-nav a {
+        font-size: 1.2em;
+    }
+    #collapsable-nav a span {
+        font-size: 1em;
+        margin-right: 5px;
+    }
+
+    .menu-item-description {
+        text-align: center;;
+    }
+
+}
